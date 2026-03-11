@@ -60,7 +60,7 @@ const Footer = () => {
             <text x="120" y="25" fontSize="18" fontFamily="monospace" fill="#F59E0B" fontWeight="bold">&#125;</text>
           </svg>
         </span>
-        <p className={isDarkMode ? "text-slate-600" : "text-slate-500"}>All 2023 rights reserved.</p>
+        <p className={isDarkMode ? "text-slate-600" : "text-slate-500"}>All 2026 rights reserved.</p>
       </div>
     </footer>
   );
