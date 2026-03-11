@@ -152,6 +152,7 @@ const ProjectsSection = () => {
           >
             <ProjectCard
               key={project.id}
+              id={project.id}
               title={project.title}
               description={project.description}
               imgUrl={project.image}

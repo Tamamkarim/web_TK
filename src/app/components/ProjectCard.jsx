@@ -3,9 +3,9 @@ import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useTheme } from "../contexts/ThemeContext";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+
+const ProjectCard = ({ id, imgUrl, title, description, gitUrl, previewUrl }) => {
   const { isDarkMode } = useTheme();
-  
   return (
     <div>
       <div
@@ -34,6 +34,9 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       }`}>
         <h5 className={`text-xl font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>{title}</h5>
         <p className={isDarkMode ? "text-[#ADB7BE]" : "text-slate-600"}>{description}</p>
+        <div className="mt-4 flex gap-2">
+          <Link href={`/projects/${id}`} className="px-3 py-1 bg-blue-600 text-white rounded text-sm">Details</Link>
+        </div>
       </div>
     </div>
   );
