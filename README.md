@@ -29,7 +29,7 @@ Tämä projekti on henkilökohtainen portfolio-sivusto, joka on kehitetty Next.j
 	npm run dev
 	```
 4. Avaa selain  osoitteessa:
-	[https://tamam88.netlify.app/](http://localhost:3000)
+	[](http://localhost:3000)
 
 ## Kansiot ja rakenne
 - `src/app/` : Pääsivut ja yleiset tyylitiedostot
