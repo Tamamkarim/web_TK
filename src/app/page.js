@@ -35,7 +35,7 @@ export default function Home() {
         <ProjectsSection />
         {/* ComfyUI Video Section */}
         <section className="my-12">
-          <h2 className="text-2xl font-bold mb-4">فيديو مولد بالذكاء الاصطناعي</h2>
+          <h2 className="text-2xl font-bold mb-4">ComfyUI Video</h2>
           <video controls width="600" className="rounded-lg shadow-lg mx-auto">
             <source src="/videos/output.mp4" type="video/mp4" />
             Your browser does not support the video tag.
