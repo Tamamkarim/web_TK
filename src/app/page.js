@@ -33,6 +33,20 @@ export default function Home() {
         <AboutSection />
         <TechSkillsSection />
         <ProjectsSection />
+        {/* ComfyUI Video Section */}
+        <section className="my-12">
+          <h2 className="text-2xl font-bold mb-4">فيديو مولد بالذكاء الاصطناعي</h2>
+          <video controls width="600" className="rounded-lg shadow-lg mx-auto">
+            <source src="/videos/output.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p className="mt-4 text-center text-lg text-gray-700 dark:text-gray-300">
+          Voit ladata videon painamalla alla olevaa linkkiä:
+          <a href="/videos/output.mp4" download className="text-blue-500 hover:underline ml-2">
+            Download Video
+          </a>
+          </p>
+        </section>
         <EmailSection />
       </div>
       <Footer />
